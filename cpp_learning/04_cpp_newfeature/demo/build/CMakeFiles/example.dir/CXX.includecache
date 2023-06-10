@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/hao009/hao_coding/cpp_learning/04_cpp_newfeature/demo/before_demo.cpp
+iostream
+-
+opencv4/opencv2/opencv.hpp
+/home/hao009/hao_coding/cpp_learning/04_cpp_newfeature/demo/opencv4/opencv2/opencv.hpp
+
