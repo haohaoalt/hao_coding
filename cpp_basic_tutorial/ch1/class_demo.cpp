@@ -1,10 +1,11 @@
-#include <stdio.h>
+#include<stdio.h>
+#include<string>
 // 通过class关键字类定义类
 class Student
 {
 public:
     // 类包含的变量
-    char *name;
+    std::string name;
     int age;
     float score;
     // 类包含的函数
